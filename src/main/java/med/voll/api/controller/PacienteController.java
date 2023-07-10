@@ -1,8 +1,8 @@
 package med.voll.api.controller;
 
-import med.voll.api.paciente.DadosCadastrarPaciente;
-import med.voll.api.paciente.Paciente;
-import med.voll.api.paciente.PacienteRepository;
+import med.voll.api.dto.DadosCadastrarPaciente;
+import med.voll.api.service.Paciente;
+import med.voll.api.repositorys.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
